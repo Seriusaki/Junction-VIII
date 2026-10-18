@@ -104,7 +104,7 @@
         <GradientStop Color="#FF8C6A12" Offset="1"/>
     </LinearGradientBrush>
 
-    <Geometry x:Key="FF8CrystalGeometry">M 0,-10 L 7,0 L 0,10 L -7,0 Z</Geometry>
+    <PathGeometry x:Key="FF8CrystalGeometry" Figures="M 0,-10 L 7,0 L 0,10 L -7,0 Z"/>
 
     <Style x:Key="FF8PanelBorderStyle" TargetType="{x:Type Border}">
         <Setter Property="BorderBrush" Value="{StaticResource FF8GoldBrush}"/>
