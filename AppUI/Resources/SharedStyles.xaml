@@ -90,8 +90,15 @@
     <SolidColorBrush x:Key="PrimaryControlDisabledForeground" Color="{DynamicResource DarkControlDisabledForeground}"/>
 
 
+    <!-- Original FF8-inspired backdrop: deep blue gradient with a soft gold glow. Not based on any Square Enix artwork. -->
+    <LinearGradientBrush x:Key="FF8MenuBackdropBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF13296B" Offset="0"/>
+        <GradientStop Color="#FF0B1B3F" Offset="0.55"/>
+        <GradientStop Color="#FF061029" Offset="1"/>
+    </LinearGradientBrush>
+
     <Style x:Key="MainWindowStyle" TargetType="{x:Type Window}">
-        <Setter Property="Background" Value="{DynamicResource PrimaryAppBackground}"/>
+        <Setter Property="Background" Value="{StaticResource FF8MenuBackdropBrush}"/>
     </Style>
 
     <Style x:Key="MainFocusVisualStyle">
