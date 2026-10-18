@@ -582,5 +582,6 @@
             </StatusBarItem>
         </StatusBar>
         <Image x:Name="TsunamodsSupport" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Height="45" Margin="0,5,0,0" VerticalAlignment="Top" Width="130" Source="/Resources/TsunamodsSupport.png" Stretch="UniformToFill" Cursor="Hand" MouseUp="TsunamodsSupport_MouseUp"/>
+        <Border Grid.ColumnSpan="3" Grid.RowSpan="3" VerticalAlignment="Top" Height="4" Background="{StaticResource FF8GoldBrush}" IsHitTestVisible="False"/>
     </Grid>
 </Window>

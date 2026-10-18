@@ -97,6 +97,28 @@
         <GradientStop Color="#FF061029" Offset="1"/>
     </LinearGradientBrush>
 
+    <!-- Original FF8-inspired gold accents. All shapes and gradients are defined here, not taken from Square Enix artwork. -->
+    <LinearGradientBrush x:Key="FF8GoldBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FFF7E7A3" Offset="0"/>
+        <GradientStop Color="#FFC9A227" Offset="0.5"/>
+        <GradientStop Color="#FF8C6A12" Offset="1"/>
+    </LinearGradientBrush>
+
+    <Geometry x:Key="FF8CrystalGeometry">M 0,-10 L 7,0 L 0,10 L -7,0 Z</Geometry>
+
+    <Style x:Key="FF8PanelBorderStyle" TargetType="{x:Type Border}">
+        <Setter Property="BorderBrush" Value="{StaticResource FF8GoldBrush}"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="CornerRadius" Value="6"/>
+        <Setter Property="Background" Value="#CC061029"/>
+    </Style>
+
+    <Style TargetType="{x:Type GroupBox}">
+        <Setter Property="BorderBrush" Value="{StaticResource FF8GoldBrush}"/>
+        <Setter Property="BorderThickness" Value="1.5"/>
+        <Setter Property="Foreground" Value="#FFF4E9C9"/>
+    </Style>
+
     <Style x:Key="MainWindowStyle" TargetType="{x:Type Window}">
         <Setter Property="Background" Value="{StaticResource FF8MenuBackdropBrush}"/>
     </Style>
