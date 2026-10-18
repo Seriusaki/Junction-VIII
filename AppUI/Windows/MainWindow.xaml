@@ -583,5 +583,9 @@
         </StatusBar>
         <Image x:Name="TsunamodsSupport" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Height="45" Margin="0,5,0,0" VerticalAlignment="Top" Width="130" Source="/Resources/TsunamodsSupport.png" Stretch="UniformToFill" Cursor="Hand" MouseUp="TsunamodsSupport_MouseUp"/>
         <Border Grid.ColumnSpan="3" Grid.RowSpan="3" VerticalAlignment="Top" Height="4" Background="{StaticResource FF8GoldBrush}" IsHitTestVisible="False"/>
+        <Path Grid.ColumnSpan="3" Grid.RowSpan="3" Data="{StaticResource FF8CrystalGeometry}" Fill="{StaticResource FF8GoldBrush}" Stretch="Fill" Width="14" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,0,0,0" IsHitTestVisible="False"/>
+        <Path Grid.ColumnSpan="3" Grid.RowSpan="3" Data="{StaticResource FF8CrystalGeometry}" Fill="{StaticResource FF8GoldBrush}" Stretch="Fill" Width="14" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0" IsHitTestVisible="False"/>
+        <Path Grid.ColumnSpan="3" Grid.RowSpan="3" Data="{StaticResource FF8CrystalGeometry}" Fill="{StaticResource FF8GoldBrush}" Stretch="Fill" Width="14" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,24,0" IsHitTestVisible="False"/>
+        <Border Grid.ColumnSpan="3" Grid.Row="2" VerticalAlignment="Bottom" Height="2" Background="{StaticResource FF8GoldBrush}" IsHitTestVisible="False"/>
     </Grid>
 </Window>
